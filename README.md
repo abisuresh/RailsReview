@@ -1,11 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Going through Ruby on Rails Tutorial 
 
 Things you may want to cover:
 
-* Ruby version
+* ruby 3.0.2p107, rails 6.1.4.0
 
 * System dependencies
 
