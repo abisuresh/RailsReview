@@ -15,14 +15,18 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console',        '4.1.0'
-  gem 'rack-mini-profiler', '2.3.1'
-  gem 'listen',             '3.4.1'
-  gem 'spring',             '2.1.1'
+  gem 'web-console',           '4.1.0'
+  gem 'listen',                '3.4.1'
+  gem 'spring',                '2.1.1'
+  gem 'spring-watcher-listen', '2.0.1'
 end
 
 group :test do
   gem 'capybara',           '3.35.3'
   gem 'selenium-webdriver', '3.142.7'
   gem 'webdrivers',         '4.6.0'
+end
+
+group :production do
+  gem 'pg', '1.2.3'
 end
